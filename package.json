@@ -1,0 +1,38 @@
+{
+    "name": "node-template",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Plantilla base para los proyectos desarrollados en el curso de Node.JS de la plataforma LearnThis Academy",
+    "scripts": {
+        "dev": "nodemon src/index.js",
+        "start": "node src/index.js",
+        "lint": "eslint src/**/*.js --fix",
+        "prettier": "prettier --write .",
+        "prepare": "husky install",
+        "postinstall": "npm run prepare"
+    },
+    "author": {
+        "name": "LearnThis Academy",
+        "url": "https://learnthisacademy.com"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "eslint": "8.18.0",
+        "eslint-config-prettier": "8.5.0",
+        "eslint-config-standard": "17.0.0",
+        "eslint-plugin-import": "2.26.0",
+        "eslint-plugin-n": "15.2.3",
+        "eslint-plugin-promise": "6.0.0",
+        "husky": "8.0.1",
+        "lint-staged": "13.0.2",
+        "nodemon": "2.0.18",
+        "prettier": "2.7.1"
+    },
+    "imports": {
+        "#Lib/*": "./src/lib/*"
+    },
+    "lint-staged": {
+        "*.js": "eslint --fix",
+        "*.{js,md}": "prettier --write"
+    }
+}
