@@ -2,7 +2,7 @@
     "name": "user-management-yt",
     "version": "1.0.0",
     "type": "module",
-    "description": "Aplicación que para la gestión de usuarios de una aplicación web",
+    "description": "Aplicación para la gestión de usuarios de una aplicación web",
     "scripts": {
         "dev": "nodemon src/index.js",
         "start": "node src/index.js",

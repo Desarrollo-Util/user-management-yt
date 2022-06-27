@@ -22,6 +22,7 @@ La idea es que utilicéis las herramientas que hemos ido viendo a lo largo de lo
 ## Requisitos funcionales
 
 -   El usuario podrá registrarse en la aplicación, introduciendo los datos necesarios.
+    -   El email debe ser único por cada usuario.
 -   El usuario podrá autenticarse ante la aplicación utilizando su email y contraseña.
     -   Si la autenticación es válida, la aplicación le devolverá al usuario un identificador que le servirá para demostrar su identidad ante la aplicación cuando quiera cambiar/eliminar sus datos.
 -   El usuario podrá obtener todos sus datos exceptuando su contraseña, utilizando su identificador.
