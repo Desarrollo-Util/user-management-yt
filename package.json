@@ -14,8 +14,14 @@
     "author": "Desarrollo Útil",
     "license": "MIT",
     "dependencies": {
+        "@sinclair/typebox": "0.23.5",
+        "ajv": "8.11.0",
+        "ajv-errors": "3.0.0",
+        "ajv-formats": "2.1.1",
+        "bcrypt": "5.0.1",
         "dotenv": "16.0.1",
         "express": "4.18.1",
+        "jose": "4.8.1",
         "mongoose": "6.4.0"
     },
     "devDependencies": {
@@ -31,6 +37,7 @@
         "prettier": "2.7.1"
     },
     "imports": {
+        "#Lib/*": "./src/lib/*",
         "#Config/*": "./src/config/*",
         "#Controllers/*": "./src/controllers/*",
         "#Dto/*": "./src/dto/*",
