@@ -1,8 +1,8 @@
 {
-    "name": "node-template",
+    "name": "user-management-yt",
     "version": "1.0.0",
     "type": "module",
-    "description": "Plantilla base para los proyectos desarrollados en el curso de Node.JS de la plataforma LearnThis Academy",
+    "description": "Aplicación que para la gestión de usuarios de una aplicación web",
     "scripts": {
         "dev": "nodemon src/index.js",
         "start": "node src/index.js",
@@ -11,10 +11,7 @@
         "prepare": "husky install",
         "postinstall": "npm run prepare"
     },
-    "author": {
-        "name": "LearnThis Academy",
-        "url": "https://learnthisacademy.com"
-    },
+    "author": "Desarrollo Útil",
     "license": "MIT",
     "devDependencies": {
         "eslint": "8.18.0",
