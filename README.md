@@ -2,7 +2,7 @@
 
 ## Resumen
 
-Desarrollar una aplicación que para la gestión de usuarios de una aplicación web.
+Desarrollar una aplicación para la gestión de usuarios de una aplicación web.
 
 La comunicación con la aplicación se deberá realizar a través de una API REST (HTTP).
 La aplicación persistirá los datos, de forma que si se para todos los cambios deberán permanecer guardados
