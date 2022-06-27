@@ -4,7 +4,7 @@ import {
     nameDTOSchema,
     passwordDTOSchema,
     surnameDTOSchema,
-} from '#Lib/dto-types.js';
+} from '#Dto/dto-types.js';
 import { Type } from '@sinclair/typebox';
 import Ajv from 'ajv';
 import addErrors from 'ajv-errors';
